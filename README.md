@@ -41,6 +41,8 @@ The Consumer Complaint CSV file is loaded into a pandas DataFrame using `pd.read
 
 Performed EDA to understand the data distribution and check for missing values:
 
+<img width="1487" height="747" alt="Screenshot 2025-10-20 020226" src="https://github.com/user-attachments/assets/4460b7a3-9fcf-43fe-a071-cf47f94ec5f7" />
+
 * Displayed count of records per product category.
 * Visualized category counts using a bar chart.
 * Identified that the available categories are **Debt collection** and **Mortgage**.
@@ -84,6 +86,8 @@ Three machine learning models were trained for comparison:
 Each model was trained using the training data, and predictions were made on the test data.
 
 ### **Step 8: Model Evaluation** 📊
+
+<img width="1107" height="607" alt="Screenshot 2025-10-20 015522" src="https://github.com/user-attachments/assets/e34b21a7-3900-4340-894b-6d4488f0304c" />
 
 Models were evaluated using standard classification metrics:
 
@@ -135,6 +139,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn nltk
 | Logistic Regression | ~High Accuracy          |
 | Naive Bayes         | Moderate                |
 | Random Forest       | Lower (text-heavy data) |
+
+
 
 The **Logistic Regression** model gave the best overall accuracy and F1-score for this binary text classification task.
 
