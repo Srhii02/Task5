@@ -108,6 +108,8 @@ Steps inside the function:
 3. Predict the label using the trained model
 4. Return the corresponding category name
 
+**PREDICTED OUTPUT : 'Mortgage'**
+
 Example:
 
 ```python
