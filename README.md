@@ -41,7 +41,9 @@ The Consumer Complaint CSV file is loaded into a pandas DataFrame using `pd.read
 
 Performed EDA to understand the data distribution and check for missing values:
 
-<img width="1487" height="747" alt="Screenshot 2025-10-20 020226" src="https://github.com/user-attachments/assets/4460b7a3-9fcf-43fe-a071-cf47f94ec5f7" />
+
+<img width="2468" height="1202" alt="Screenshot 2025-10-20 170556" src="https://github.com/user-attachments/assets/7f02fc7c-38a0-44c6-a9cb-7562250ed1b3" />
+
 
 * Displayed count of records per product category.
 * Visualized category counts using a bar chart.
@@ -87,7 +89,8 @@ Each model was trained using the training data, and predictions were made on the
 
 ### **Step 8: Model Evaluation** 📊
 
-<img width="1107" height="607" alt="Screenshot 2025-10-20 015522" src="https://github.com/user-attachments/assets/e34b21a7-3900-4340-894b-6d4488f0304c" />
+<img width="2383" height="1106" alt="Screenshot 2025-10-20 170633" src="https://github.com/user-attachments/assets/73a350ce-7397-49a0-bdb6-9fe971e6a199" />
+
 
 Models were evaluated using standard classification metrics:
 
